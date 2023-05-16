@@ -17,7 +17,7 @@
 .banner {
     /* background-image: url('../Images/HomepageBkgrnd3.jpg'); */
     background-image: url('../Images/cover8.png');
-    min-height: 700px;
+    min-height: 500px;
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
@@ -87,12 +87,6 @@ html {
     height: 100%;
 }
 
-#aboutme {
-    background-color: rgba(245, 245, 245, 0.75);
-    padding-top: 10%;
-    padding-bottom: 5%;
-}
-
 .column {
     float: left;
     padding: 5px;
@@ -108,8 +102,7 @@ html {
 .card-deck {
     padding-left: 14%;
     padding-right: 14%;
-    /* padding-bottom: 5%; */
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
 
 .card-title {
@@ -266,11 +259,6 @@ h2 {
     font-size: 18px;
 }
 
-#lists {
-    padding-left: 15%;
-    padding-top: 5%;
-}
-
 li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
@@ -300,7 +288,7 @@ li {
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 10px;
   }
   @media (max-width: 979px) {
     body {
@@ -325,17 +313,9 @@ body {
       text-align: center;
   }
 
-  #spacing {
-      padding-bottom: 500px;
-  }
-
   .responsive {
       width: 100%;
       height: auto;
-  }
-
-  #padding{
-      padding-bottom: 35%;
   }
 
   #links {
@@ -377,8 +357,6 @@ body {
     pointer-events: none;
 }
 
-#cardBtn {
-    align-items: center;
-    padding-right:25%;
-    padding-top: 0%;
+#cardBtns {
+    width: 100%;
 }
